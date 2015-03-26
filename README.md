@@ -2,27 +2,27 @@
 
 ## Installation
 
-clone the project from github
+clone the generator project from github
 ```bash
 git clone https://github.com/syjulian/generator-adrian.git
 ```
 
-go into the project
+go into the generator's project directory
 ```bash
 cd generator-adrian
 ```
 
-'install' to node locally
+'install' to node locally in the generator's project directory
 ```bash
 npm link
 ```
 
 ## Getting Started
-Create your project folder
+Create your app project folder
 ```bash
 mkdir myProject
 ```
-Go into your project folder
+Go into your app project folder
 ```bash
 cd myProject
 ```
