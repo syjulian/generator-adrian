@@ -7,11 +7,13 @@ clone the project from github
 git clone https://github.com/syjulian/generator-adrian.git
 ```
 
-go into the project and 'install'
+go into the project
 ```bash
 cd generator-adrian
+```
 
-# "install" to node
+'install' to node locally
+```bash
 npm link
 ```
 
@@ -19,10 +21,11 @@ npm link
 Create your project folder
 ```bash
 mkdir myProject
-
+```
+Go into your project folder
+```bash
 cd myProject
 ```
-
 Initiate the generator
 ```bash
 yo adrian
