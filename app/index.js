@@ -49,6 +49,7 @@ module.exports = yeoman.generators.Base.extend({
       this.mkdir("app");
       this.mkdir("app/css");
       this.mkdir("app/sections");
+      this.mkdir("app/api");
       this.mkdir("build");
     },
     app: function () {
@@ -71,6 +72,10 @@ module.exports = yeoman.generators.Base.extend({
       this.fs.copy(
         this.templatePath('_main.css'),
         this.destinationPath('app/css/main.css')
+      );
+      this.fs.copy(
+        this.templatePath('_db.json'),
+        this.destinationPath('app/api/db.json')
       );
 
       var context = {
